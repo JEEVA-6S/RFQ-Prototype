@@ -97,9 +97,9 @@ const PERIOD_DATA: Record<PeriodKey, PeriodData> = {
       { name: "Adani Ports", rfqs: 2, conversion: "28%", revenue: "$21k" },
     ],
     geography: [
-      { region: "\uD83C\uDDEE\uD83C\uDDF3 India", rfqs: 51, pct: 34 },
+      { region: "\uD83C\uDDEE\uD83C\uDDF3 United States", rfqs: 51, pct: 34 },
       { region: "\uD83C\uDDEA\uD83C\uDDFA Europe / EU", rfqs: 32, pct: 21 },
-      { region: "\uD83C\uDDFA\uD83C\uDDF8 United States", rfqs: 21, pct: 14 },
+      { region: "\uD83C\uDDFA\uD83C\uDDF8 India ", rfqs: 21, pct: 14 },
       { region: "\uD83C\uDDEC\uD83C\uDDE7 United Kingdom", rfqs: 12, pct: 8 },
       { region: "\uD83C\uDDE6\uD83C\uDDFA Australia", rfqs: 8, pct: 5 },
     ],
