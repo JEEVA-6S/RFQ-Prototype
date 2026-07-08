@@ -1,0 +1,10 @@
+# Code-defined deploy: Node server serves dist/ and rewrites unknown paths to index.html.
+services:
+  - type: web
+    name: RFQ-prototype-demo
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
